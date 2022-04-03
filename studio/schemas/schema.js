@@ -8,6 +8,7 @@ import localeString from './objects/localeString'
 // document schemas
 import navMenu from './documents/navMenu'
 import author from './documents/author'
+import definition from './documents/definition'
 import category from './documents/category'
 import post from './documents/post'
 import page from './documents/page'
@@ -55,6 +56,7 @@ export default createSchema({
       navMenu,
       page,
       category,
+      definition,
       author,
       mainImage,
       authorReference,

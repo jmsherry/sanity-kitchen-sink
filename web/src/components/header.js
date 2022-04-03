@@ -50,9 +50,9 @@ const Header = ({ showNav, siteTitle, scrolled, navMenuItems = [], textWhite = t
         {showNav && navMenuItems && (
           <div className={navContentClass} id="nav-content">
             <ul className="list-reset lg:flex justify-end flex-1 items-center">
-              {navMenuItems.map((i) => (
-                <li className="mr-3">
-                  <CTALink {...i} buttonActionClass={navActionClass} />
+              {navMenuItems.map((item, i) => (
+                <li className="mr-3" key={i}>
+                  <CTALink {...item} buttonActionClass={navActionClass} />
                 </li>
               ))}
             </ul>

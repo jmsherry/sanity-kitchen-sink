@@ -1,4 +1,4 @@
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 import React from "react";
 import { cn } from "../lib/helpers";
 import PortableText from "./portableText";

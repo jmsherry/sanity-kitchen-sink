@@ -1,8 +1,7 @@
 {
   "packages": [
     "web",
-    "studio",
-    "auth"
+    "studio"
   ],
   "version": "1.0.0"
 }
